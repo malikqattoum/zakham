@@ -18,9 +18,17 @@ class User extends Authenticatable
      * @var string[]
      */
     protected $fillable = [
-        'name',
+        'first_name',
+        'last_name',
+        'res_country',
+        'image',
+        'is_superuser',
         'email',
         'password',
+        'birthdate',
+        'language',
+        'phone',
+        'gender'
     ];
 
     /**
@@ -41,4 +49,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function categories()
+    {
+        return $this->hasMany(UserCategory::class, 'cat_id', 'id');
+    }
 }

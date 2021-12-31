@@ -1,0 +1,125 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+body {
+	font-family: 'Cairo', sans-serif;
+}
+
+.vertical-bar {
+  border-left: 2px solid #000;
+  margin-top: 15px;
+  height: 10px;
+}
+
+#section-init img {
+	width: 100px;
+}
+
+#section-init .card {
+	width:75%;
+}
+
+#section-init .card-body {
+	background-color: #F8FDFF;
+}
+
+.home-banner {
+	background: rgb(255,136,199);
+	background: linear-gradient(0deg, rgba(255,136,199,1) 0%, rgba(255,236,178,1) 100%);
+}
+
+#reg-banner p {
+	font-size: medium;
+}
+
+#reg-banner a {
+	border-radius: 15px;
+}
+
+#section-team .bordered-box {
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+.counter-section i {
+	display: block;
+	margin: 0 0 10px
+}
+
+.counter-section span.counter {
+	font-size: 40px;
+	color: #000;
+	line-height: 60px;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 2px
+}
+
+.counter-title {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+
+.counter-icon {
+	top: 25px;
+	position: relative
+}
+
+.counter-style2 .counter-title {
+	letter-spacing: 0.55px;
+	float: left
+}
+
+.counter-style2 span.counter {
+	letter-spacing: 0.55px;
+	float: left;
+	margin-right: 10px
+}
+
+.counter-style2 i {
+	float: right;
+	line-height: 26px;
+	margin: 0 10px 0 0
+}
+
+.counter-subheadline span {
+	float: right
+}
+
+.medium-icon {
+	font-size: 40px !important;
+	margin-bottom: 15px !important
+}
+
+.logo-size {
+	width: 50px;
+}
+
+.reg-sub-checkboxes {
+	max-height:100px;
+	overflow-y: scroll;
+}
+
+.zakham-btn {
+	border: #000 solid 1px;
+	background-color:#FF90C6;
+	color: #FFF;
+	text-decoration: none;
+	padding: 0.375rem 0.75rem;
+	text-align:center;
+	font-weight:400;
+	display: inline-block;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	text-decoration: none !important;
+}
+
+.zakham-btn:hover {
+	background-color: #DD7C98;
+	color: #FFF;
+}
