@@ -4,7 +4,7 @@
         <td>
 
             @if(getCrudConfig('carousel')->update)
-                <a href="@route(getRouteName().'.carousel.update', ['carousel' => $carousel->id])" class="btn text-primary mt-1">
+                <a href="@route(getRouteName().'.carousel.update', ['Carousel' => $carousel->id])" class="btn text-primary mt-1">
                     <i class="icon-pencil"></i>
                 </a>
             @endif

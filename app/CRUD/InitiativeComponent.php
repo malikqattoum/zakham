@@ -3,7 +3,7 @@
 namespace App\CRUD;
 
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\initiative;
+use App\Models\Initiative;
 
 class InitiativeComponent implements CRUDComponent
 {

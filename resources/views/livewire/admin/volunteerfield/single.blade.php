@@ -5,7 +5,7 @@
         <td>
 
             @if(getCrudConfig('volunteerfield')->update)
-                <a href="@route(getRouteName().'.volunteerfield.update', ['volunteerfield' => $volunteerfield->id])" class="btn text-primary mt-1">
+                <a href="@route(getRouteName().'.volunteerfield.update', ['Volunteerfield' => $volunteerfield->id])" class="btn text-primary mt-1">
                     <i class="icon-pencil"></i>
                 </a>
             @endif

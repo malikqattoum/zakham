@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Category;
 
-use App\Models\category;
+use App\Models\Category;
 use Livewire\Component;
 
 class Single extends Component

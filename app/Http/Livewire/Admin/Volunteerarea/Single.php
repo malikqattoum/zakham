@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Volunteerarea;
 
-use App\Models\volunteerarea;
+use App\Models\VolunteerArea;
 use Livewire\Component;
 
 class Single extends Component
@@ -10,7 +10,7 @@ class Single extends Component
 
     public $volunteerarea;
 
-    public function mount(Volunteerarea $volunteerarea){
+    public function mount(VolunteerArea $volunteerarea){
         $this->volunteerarea = $volunteerarea;
     }
 

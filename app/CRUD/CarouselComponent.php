@@ -3,7 +3,7 @@
 namespace App\CRUD;
 
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\carousel;
+use App\Models\Carousel;
 
 class CarouselComponent implements CRUDComponent
 {

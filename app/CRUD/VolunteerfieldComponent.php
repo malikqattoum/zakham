@@ -3,7 +3,7 @@
 namespace App\CRUD;
 
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\volunteerfield;
+use App\Models\VolunteerField;
 
 class VolunteerfieldComponent implements CRUDComponent
 {
@@ -18,7 +18,7 @@ class VolunteerfieldComponent implements CRUDComponent
 
     public function getModel()
     {
-        return Volunteerfield::class;
+        return VolunteerField::class;
     }
 
     // which kind of data should be showed in list page

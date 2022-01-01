@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Volunteerarea;
 
-use App\Models\volunteerarea;
+use App\Models\VolunteerArea;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 

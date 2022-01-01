@@ -3,7 +3,7 @@
 namespace App\Http\Livewire\Admin\Subcategory;
 
 use App\Models\Category;
-use App\Models\subcategory;
+use App\Models\SubCategory;
 use Illuminate\Database\Eloquent\Builder;
 use Livewire\Component;
 use Livewire\WithPagination;

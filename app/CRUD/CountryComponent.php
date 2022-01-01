@@ -3,7 +3,7 @@
 namespace App\CRUD;
 
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\country;
+use App\Models\Country;
 
 class CountryComponent implements CRUDComponent
 {
