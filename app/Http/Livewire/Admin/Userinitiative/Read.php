@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Userinitiative;
 
-use App\Models\userinitiative;
+use App\Models\UserInitiative;
 use Illuminate\Database\Eloquent\Builder;
 use Livewire\Component;
 use Livewire\WithPagination;
@@ -36,7 +36,7 @@ class Read extends Component
 
     public function render()
     {
-        $data = Userinitiative::query();
+        $data = UserInitiative::query();
 
         $instance = getCrudConfig('userinitiative');
         if($instance->searchable()){

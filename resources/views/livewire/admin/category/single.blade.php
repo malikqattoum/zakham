@@ -6,7 +6,7 @@
         <td>
 
             @if(getCrudConfig('category')->update)
-                <a href="@route(getRouteName().'.category.update', ['category' => $category->id])" class="btn text-primary mt-1">
+                <a href="@route(getRouteName().'.category.update', ['Category' => $category->id])" class="btn text-primary mt-1">
                     <i class="icon-pencil"></i>
                 </a>
             @endif

@@ -3,7 +3,7 @@
 namespace App\CRUD;
 
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\userinitiative;
+use App\Models\UserInitiative;
 use App\Models\User;
 
 class UserinitiativeComponent implements CRUDComponent
@@ -19,7 +19,7 @@ class UserinitiativeComponent implements CRUDComponent
 
     public function getModel()
     {
-        return Userinitiative::class;
+        return UserInitiative::class;
     }
 
     // which kind of data should be showed in list page

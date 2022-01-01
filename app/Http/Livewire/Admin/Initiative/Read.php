@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Initiative;
 
-use App\Models\initiative;
+use App\Models\Initiative;
 use Illuminate\Database\Eloquent\Builder;
 use Livewire\Component;
 use Livewire\WithPagination;

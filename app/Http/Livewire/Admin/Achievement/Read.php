@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Achievement;
 
-use App\Models\achievement;
+use App\Models\Achievement;
 use Illuminate\Database\Eloquent\Builder;
 use Livewire\Component;
 use Livewire\WithPagination;

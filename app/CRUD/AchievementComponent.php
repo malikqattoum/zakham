@@ -3,7 +3,7 @@
 namespace App\CRUD;
 
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\achievement;
+use App\Models\Achievement;
 
 class AchievementComponent implements CRUDComponent
 {

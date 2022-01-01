@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Carousel;
 
-use App\Models\carousel;
+use App\Models\Carousel;
 use Livewire\Component;
 
 class Single extends Component

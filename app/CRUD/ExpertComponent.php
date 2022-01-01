@@ -3,7 +3,7 @@
 namespace App\CRUD;
 
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\expert;
+use App\Models\Expert;
 
 class ExpertComponent implements CRUDComponent
 {

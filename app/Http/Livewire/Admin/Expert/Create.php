@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Expert;
 
-use App\Models\expert;
+use App\Models\Expert;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 

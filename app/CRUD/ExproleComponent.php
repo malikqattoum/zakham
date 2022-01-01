@@ -3,7 +3,7 @@
 namespace App\CRUD;
 
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\exprole;
+use App\Models\Exprole;
 
 class ExproleComponent implements CRUDComponent
 {

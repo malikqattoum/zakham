@@ -5,7 +5,7 @@
         <td>
 
             @if(getCrudConfig('initiative')->update)
-                <a href="@route(getRouteName().'.initiative.update', ['initiative' => $initiative->id])" class="btn text-primary mt-1">
+                <a href="@route(getRouteName().'.initiative.update', ['Initiative' => $initiative->id])" class="btn text-primary mt-1">
                     <i class="icon-pencil"></i>
                 </a>
             @endif

@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Exprole;
 
-use App\Models\exprole;
+use App\Models\ExpRole;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 

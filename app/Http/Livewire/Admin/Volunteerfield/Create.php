@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Volunteerfield;
 
-use App\Models\volunteerfield;
+use App\Models\VolunteerField;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 

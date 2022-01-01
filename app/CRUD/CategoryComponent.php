@@ -3,7 +3,7 @@
 namespace App\CRUD;
 
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\category;
+use App\Models\Category;
 
 class CategoryComponent implements CRUDComponent
 {

@@ -12,7 +12,7 @@
         <td>
 
             @if(getCrudConfig('expert')->update)
-                <a href="@route(getRouteName().'.expert.update', ['expert' => $expert->id])" class="btn text-primary mt-1">
+                <a href="@route(getRouteName().'.expert.update', ['Expert' => $expert->id])" class="btn text-primary mt-1">
                     <i class="icon-pencil"></i>
                 </a>
             @endif

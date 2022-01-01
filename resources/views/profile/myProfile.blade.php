@@ -243,7 +243,7 @@
             <h5 class="font-weight-bold">الخبرة العملية</h5>
             <div class="form-group row">
                 <div class="offset-md-2 col-md-6">
-                    <input class="form-control @error('exp_years') is-invalid @enderror" type="number" name="exp_years" value="{{ old('exp_years')?old('exp_years'):$userExperience->exp_years }}" placeholder="عدد سنوات الخبرة" dir="rtl" />
+                    <input class="form-control @error('exp_years') is-invalid @enderror" type="number" name="exp_years" value="{{ old('exp_years')?old('exp_years'):$userExperience->exp_years??0 }}" placeholder="عدد سنوات الخبرة" dir="rtl" />
                     @if($errors->has('exp_years'))
                         <div class="error text-danger">{{ $errors->first('exp_years') }}</div>
                     @endif
@@ -254,7 +254,7 @@
                     <select class="form-control @error('exp_role') is-invalid @enderror" name="exp_role" id="exp_role" dir="rtl">
                         <option value="" disabled selected>المجال</option>
                         @foreach ($expRoles as $id => $role)
-                        <option value="{{$id}}" @if(old('exp_role')==$id) selected @elseif($userExperience->exp_role == $id) selected @endif>{{$role}}</option>
+                        <option value="{{$id}}" @if(old('exp_role')==$id) selected @elseif($userExperience->exp_role??0 == $id) selected @endif>{{$role}}</option>
                         @endforeach
                     </select>
                     @if($errors->has('exp_role'))

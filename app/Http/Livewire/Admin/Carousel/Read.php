@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Carousel;
 
-use App\Models\carousel;
+use App\Models\Carousel;
 use Illuminate\Database\Eloquent\Builder;
 use Livewire\Component;
 use Livewire\WithPagination;

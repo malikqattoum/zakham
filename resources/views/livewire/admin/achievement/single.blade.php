@@ -6,7 +6,7 @@
         <td>
 
             @if(getCrudConfig('achievement')->update)
-                <a href="@route(getRouteName().'.achievement.update', ['achievement' => $achievement->id])" class="btn text-primary mt-1">
+                <a href="@route(getRouteName().'.achievement.update', ['Achievement' => $achievement->id])" class="btn text-primary mt-1">
                     <i class="icon-pencil"></i>
                 </a>
             @endif

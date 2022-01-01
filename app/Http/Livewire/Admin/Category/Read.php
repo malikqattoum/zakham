@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Category;
 
-use App\Models\category;
+use App\Models\Category;
 use Illuminate\Database\Eloquent\Builder;
 use Livewire\Component;
 use Livewire\WithPagination;

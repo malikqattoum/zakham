@@ -4,7 +4,7 @@ namespace App\CRUD;
 
 use App\Models\Category;
 use EasyPanel\Contracts\CRUDComponent;
-use App\Models\subcategory;
+use App\Models\SubCategory;
 
 class SubcategoryComponent implements CRUDComponent
 {
@@ -19,7 +19,7 @@ class SubcategoryComponent implements CRUDComponent
 
     public function getModel()
     {
-        return Subcategory::class;
+        return SubCategory::class;
     }
 
     // which kind of data should be showed in list page

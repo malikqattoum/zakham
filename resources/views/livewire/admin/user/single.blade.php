@@ -8,7 +8,7 @@
         <td>
 
             @if(getCrudConfig('user')->update)
-                <a href="@route(getRouteName().'.user.update', ['user' => $user->id])" class="btn text-primary mt-1">
+                <a href="@route(getRouteName().'.user.update', ['User' => $user->id])" class="btn text-primary mt-1">
                     <i class="icon-pencil"></i>
                 </a>
             @endif

@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Initiative;
 
-use App\Models\initiative;
+use App\Models\Initiative;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 

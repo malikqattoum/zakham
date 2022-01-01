@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Country;
 
-use App\Models\country;
+use App\Models\Country;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 

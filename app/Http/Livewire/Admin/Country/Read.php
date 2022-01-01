@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Country;
 
-use App\Models\country;
+use App\Models\Country;
 use Illuminate\Database\Eloquent\Builder;
 use Livewire\Component;
 use Livewire\WithPagination;
